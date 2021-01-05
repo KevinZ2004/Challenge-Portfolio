@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+}
+
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    color: white;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+
+li a:hover {
+    color: white;
+    background-color: darkblue;
+    border-radius: 100px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+table {
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.tabel {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: black;
+    font-size: 40px;
+}
+
+th {
+    color: white;
+    padding: 10px;
+}
+
+td {
+    color: white;
+}

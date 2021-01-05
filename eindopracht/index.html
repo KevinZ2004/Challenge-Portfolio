@@ -1,22 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>      
-        <div class="Navbar">
-            <nav>
-                <ul>
-                    <li><a href="../kopjes/about/index.html">about</a></li>
-                    <li><a href="../kopjes/interests/index.html">interests</a></li>
-                    <li><a href="../kopjes/projects/index.html">projects</a></li>
-                    <li><a href="../Vlaggen/contact/index.html">contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-    <div class="tabel">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+<body> 
+    
+    <div class="nav">
+                    <a class= "a active" href="#">HOME</a>
+                    <a class= "b" href="#">ABOUT ME</a>
+					<a class= "c" href="#">PROJECTS</a>
+					<a class= "d" href="#">INTERESTS</a>
+					<a class= "e" href="#">CONTACT </a>
+	</div>
+	
+	<div class="tabel">
         <div id="kopje1"></div>
     </div>
-    </body>
+	<table>
+        <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Leeftijd</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h3 id="id01"></h3></td>
+                <td><h3 id="id02"></h3></td>
+            </tr>
+        </tbody>
+	</table>
+	<script src="script.js"></script>
+	
+<script type="text/javascript" src="../img/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $('a').click(function(){
+		//alert("i am click");
+		var selected = $(this);
+		$('a').removeClass('active');
+		$(selected).addClass('active');
+	});
+	var $a = $('.a'),
+	$b = $('.b'),
+	$c = $('.c'),
+	$d = $('.d'),
+	$e = $('.e'),
+	$home = $('.home'),
+	$aboutus = $('.aboutus');
+	$projects = $('.projects');
+	$interests = $('.interests');
+	$contactus = $('.contactus');
+
+	$a.click(function(){
+		$home.fadeIn();
+		$aboutus.fadeOut();
+		$projects.fadeOut();
+		$interests.fadeOut();
+		$contactus.fadeOut();
+	});
+	$b.click(function(){
+		$aboutus.fadeIn();
+		$home.fadeOut();
+		$projects.fadeOut();
+		$interests.fadeOut();
+		$contactus.fadeOut();
+	});
+	$c.click(function(){
+		$projects.fadeIn();
+		$home.fadeOut();
+		$aboutus.fadeOut();
+		$interests.fadeOut();
+		$contactus.fadeOut();
+	});
+	$d.click(function(){
+		$interests.fadeIn();
+		$home.fadeOut();
+		$projects.fadeOut();
+		$aboutus.fadeOut();
+		$contactus.fadeOut();
+	});
+	$e.click(function(){
+		$contactus.fadeIn();
+		$home.fadeOut();
+		$projects.fadeOut();
+		$aboutus.fadeOut();
+		$interests.fadeOut();
+	});
+});
+         
+</script>
+
+<div class="content">
+
+    <div class="home">
+        <h1>Kevin Zwolschen</h1>
+    </div>
+
+    <div class="aboutus">
+		<b>Welkom bij mijn website. Wat je kan verwachten op deze site zijn:</b>
+		<div>Mijn projecten: Hier laat ik je zien wat voor projecten ik heb gemaakt.</div>
+		<div>Mijn interesses: Ik laat je wat weten over mijn hobby's en mijn interesses.</div>
+		<div>Contact: Hierin laat ik contactgegevens achter hoe je mij kan bereiken.</div>
+	</div>
+	
+	<div class="projects">
+		<h4><p><b>Projecten</b></p></h4>
+		<p>Een project waar ik trots op ben is mijn eerste website die ik heb gemaakt. 
+			Ik moest informatie over mijzelf vertellen
+			 en een link maken naar een andere pagina. Ik heb daarbij een foto toegepast.</p>
+			<a href="../eindopracht/frontend-basic-eindopdracht/index.html">Hierbij een link naar mijn Frontend-basic-eindopdracht</a>
+			<img src="Kevinfoto.jpg" alt="Kevin">
+			<p>Mijn tweede project is een opdracht waarbij ik allemaal verschillende 
+				soorten vlaggen heb moeten maken. Dat was voor mij de eerste keer dat ik dat deed.</p>
+			<a href="../eindopracht/vlaggen opdracht/index.html">Hierbij een link naar mijn vlaggen opdracht</a>
+			<p>Mijn derde project heet opdracht personalia omdat het over de gegevens over een persoon gaat. 
+				Dat is ook een website. 
+				Deze website begint met een vragenlijst. Door middel van die vragenlijst wordt de pagina gevormd. </p>
+		<a href="../eindopracht/opdracht personalia/index.html">Hierbij een link naar opdracht personalia</a>
+	</div>
+
+
+	<div class="interests">
+		<h1><p><b>interesses</b></p></h1>
+		<b>Hobby's:</b> <br>
+		Mijn hobby's zijn voetbal en gamen. Voetbal doe ik al sinds mijn zevende en ben tot nu toe nog steeds daarmee 
+		bezig omdat het gewoon nog steeds leuk is. Ik zit in het team Jo17-1 selectie ik ben tweebenig en mijn positie is linkback en rechtback.
+	    Mijn andere hobby is gamen. Als ik game doe ik vaak het spelletje FIFA omdat ik van voetbal hou.</br></p>
+		<p><b>Interesse</b></p>
+		Mijn Interesse ligt bij het ict. Ik ben dit jaar namelijk begonnen met de opleiding software development.
+		Ik ben deze opleiding begonnen omdat ik veel achter de computer kan werken. 
+		Ik heb ook al een goede fundatie omdat ik al wat dingen wist van de opleiding omdat mijn vader ook in de ICT zit dus kijk ik soms mee bij hoe het er daar aan toe gaat en of ik er zelf wat mee kan opschieten.
+	</div>
+
+	<div class="contactus">
+		<p><h3>Contact</h3></p>
+		<h6><li>Contact opnemen via: Kevin.zwolschen@student.rocva.nl</li></h6>
+	</div>
+    
+</div>
+</body>
 </html>

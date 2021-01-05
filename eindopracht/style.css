@@ -1,34 +1,130 @@
 body {
-    background-color: white;
+    background-color: grey;
 }
 
-{
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+.nav a{
     text-decoration: none;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.Navbar {
-    background-color: #292929;
-    padding-top: 20px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-
-nav {
-    text-align: center;
-}
-
-li {
-    display: inline;
-    padding: 10px;
-}
-
-li a {
+    font-size: 32px;
+    font-family: Verdana;
+    font-weight: bold;
+    height: 90px;
+    margin: 3px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
     color: white;
-    padding: 10px;
-    transition: 0.1s;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 80%;
+}
+.d{ 
+    width: 90%;
+}
+.e{
+    width: 80%;
+}
+
+.content{
+    position: absolute;
+    width: 900px;
+    min-height: 500px;
+    height: auto;
+    /*background-color: red;*/
+    right: 0%;
+    top: 10%;
+}
+.home{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    color: white;
+    font-family: verdana;
+}
+.home h1{
+    font-size: 50px;
+    padding-right: 300px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+.aboutus{
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    color: white;
+    font-family: verdana;
+    padding: 0 60px;
+}
+.aboutus div{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.projects{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+a{
+    color: rgb(9, 255, 0)
+}
+
+.projects b{
+    font-size: 50px;
+}
+
+.interests{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+}
+.interests p{
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+.contactus{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.tabel {
+    margin-left: 100px;
+    margin-top: 10px;
+    color: black;
+    font-size: 40px;
 }
 
 table {
@@ -40,18 +136,3 @@ table {
     text-align: left;
 }
 
-.tabel {
-    margin-left: 100px;
-    margin-top: 100px;
-    color: black;
-    font-size: 40px;
-}
-
-th {
-    color: white;
-    padding: 10px;
-}
-
-td {
-    color: white;
-}

@@ -12,11 +12,19 @@
 
 | Stap        | Taak                                           | Verwachte tijdsduur | Status |
 | ----------- | ---------------------------------------------- | ------------------- | ------ |
-| Planning    | Planning maken                                 | 00:30 u             | Bezig  |
+| Planning    | Planning maken                                 | 00:45 u             | klaar  |
+|             | buttons maken                                  | 00:30 u             | klaar  |
+|             | menu maken en stylen met css                   | 00:30 u             | klaar  |
+|             | about me maken en stylen met css               | 00:30 u             | klaar  |
+|             | projects maken. linkjes van de opdrachten      |                     |        |
+|             | toevoegen                                      | 01:00 u             | klaar  |
+|             | interesses: Hobby's en interesses tekst maken  | 00:45 u             | klaar  |
+|             | contact maken + tekst maken                    | 00:30 u             | klaar  |
 | Ontwerpen   | Mockup van portfolio maken                     |                     |        |
-| ...         | Styling van elementen bepalen                  |                     |        |
+|             | boomstructuur maken                            | 00:45 u             | klaar  |
+|             | wireframe maken                                | 00:20 u             | klaar  |
 | Realiseren  | Bestanden aanmaken                             |                     |        |
-| ...         |                                                |                     |        |
+|             | de hele website controleren                    | 00:05 u             | klaar  |
 | Testen      | Applicatie testen                              |                     |        |
 | ...         |                                                |                     |        |
 | Verbeteren  | Problemen gevonden tijdens het testen oplossen |                     |        |
