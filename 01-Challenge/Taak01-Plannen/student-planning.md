@@ -25,10 +25,10 @@
 |             | wireframe maken                                | 00:20 u             | klaar  |
 | Realiseren  | Bestanden aanmaken                             |                     |        |
 |             | de hele website controleren                    | 00:05 u             | klaar  |
-| Testen      | Applicatie testen                              |                     |        |
-| ...         |                                                |                     |        |
+| Testen      | Applicatie testen                              | 00:05 u             | klaar  |
+|             |                                                |                     |        |
 | Verbeteren  | Problemen gevonden tijdens het testen oplossen |                     |        |
-| ...         |                                                |                     |        |
-| Presenteren |                                                |                     |        |
-| ...         |                                                |                     |        |
+|             | geen problemen gevonden                        | 00:05 u             | klaar  |
+| Presenteren |                                                | 00:10 u             | klaar  |
+|             |                                                |                     |        |
 | Refecteren  | Reflectiedocument schrijven                    |                     |        |
