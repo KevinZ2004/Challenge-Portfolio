@@ -14,7 +14,8 @@
 | ----------- | ---------------------------------------------- | ------------------- | ------ |
 | Planning    | Planning maken                                 | 00:45 u             | klaar  |
 |             | buttons maken                                  | 00:30 u             | klaar  |
-|             | menu maken en stylen met css                   | 00:30 u             | klaar  |
+|             | hoofdmenu maken+linkjes maken aan de navbar    |                     |        |
+|             | stylen met css                                 | 00:30 u             |        |
 |             | about me maken en stylen met css               | 00:30 u             | klaar  |
 |             | projects maken. linkjes van de opdrachten      |                     |        |
 |             | toevoegen                                      | 01:00 u             | klaar  |
@@ -31,4 +32,4 @@
 |             | geen problemen gevonden                        | 00:05 u             | klaar  |
 | Presenteren |                                                | 00:10 u             | klaar  |
 |             |                                                |                     |        |
-| Refecteren  | Reflectiedocument schrijven                    |                     |        |
+| Refecteren  | Reflectiedocument schrijven                    | 00:05               | klaar  |

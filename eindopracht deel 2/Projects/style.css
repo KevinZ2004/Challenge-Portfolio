@@ -49,3 +49,6 @@ body{
   .box li a:hover{
     color: #b9b9b9;
   }
+  a {
+    color: rgb(9, 255, 0);
+}

@@ -1,6 +1,6 @@
 # Link naar je Github Pages
 
-Student : `studentnaam`
+Student : Kevin Zwolschen
 
 Klas    : `klascode`
 
