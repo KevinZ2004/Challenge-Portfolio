@@ -21,6 +21,7 @@ element.innerHTML = woonplaats;
 //leeftijd
 var leeftijd = prompt("hoe oud ben je");
 var element = document.getElementById("id05");
+element.innerHTML = leeftijd;
 
 if(leeftijd == 16){
     document.querySelector("table").style.backgroundColor = 'orange';
