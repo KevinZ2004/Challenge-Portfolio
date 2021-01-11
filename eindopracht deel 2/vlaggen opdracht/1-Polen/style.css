@@ -1,0 +1,19 @@
+/* Hieronder kun je gaan editen */
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+#bovenkant{
+    width: 800px;
+    height: 250px;
+    background-color: white;
+}
+
+#onderkant{
+    width: 800px;
+    height: 250px;
+    background-color: red;
+}
