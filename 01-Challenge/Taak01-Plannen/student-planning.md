@@ -15,7 +15,7 @@
 | Planning    | Planning maken                                 | 00:45 u             | klaar  |
 |             | buttons maken                                  | 00:30 u             | klaar  |
 |             | hoofdmenu maken+linkjes maken aan de navbar    |                     |        |
-|             | stylen met css                                 | 00:30 u             |        |
+|             | stylen met css                                 | 00:30 u             | klaar  |
 |             | about me maken en stylen met css               | 00:30 u             | klaar  |
 |             | projects maken. linkjes van de opdrachten      |                     |        |
 |             | toevoegen                                      | 01:00 u             | klaar  |
